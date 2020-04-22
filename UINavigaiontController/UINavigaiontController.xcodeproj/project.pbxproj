@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FD48C7A2450ECA100B42FD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD48C792450ECA100B42FD9 /* AppDelegate.swift */; };
+		7FD48C7C2450ECA100B42FD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD48C7B2450ECA100B42FD9 /* SceneDelegate.swift */; };
+		7FD48C7E2450ECA100B42FD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD48C7D2450ECA100B42FD9 /* ViewController.swift */; };
+		7FD48C812450ECA100B42FD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD48C7F2450ECA100B42FD9 /* Main.storyboard */; };
+		7FD48C832450ECA900B42FD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FD48C822450ECA900B42FD9 /* Assets.xcassets */; };
+		7FD48C862450ECA900B42FD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD48C842450ECA900B42FD9 /* LaunchScreen.storyboard */; };
+		7FD48C9C2450EF3600B42FD9 /* bedroom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FD48C8D2450EF3500B42FD9 /* bedroom.jpg */; };
+		7FD48C9D2450EF3600B42FD9 /* bathroom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FD48C8E2450EF3500B42FD9 /* bathroom.jpg */; };
+		7FD48C9E2450EF3600B42FD9 /* dining_room.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FD48C8F2450EF3500B42FD9 /* dining_room.jpg */; };
+		7FD48C9F2450EF3600B42FD9 /* kitchen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FD48C902450EF3500B42FD9 /* kitchen.jpg */; };
+		7FD48CA02450EF3600B42FD9 /* back_porch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FD48C912450EF3500B42FD9 /* back_porch.jpg */; };
+		7FD48CA12450EF3600B42FD9 /* cursed_chalice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FD48C922450EF3500B42FD9 /* cursed_chalice.jpg */; };
+		7FD48CA22450EF3600B42FD9 /* generator.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FD48C932450EF3500B42FD9 /* generator.jpg */; };
+		7FD48CA32450EF3600B42FD9 /* dungeon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FD48C942450EF3500B42FD9 /* dungeon.jpg */; };
+		7FD48CA42450EF3600B42FD9 /* mysterious_lake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FD48C952450EF3500B42FD9 /* mysterious_lake.jpg */; };
+		7FD48CA52450EF3600B42FD9 /* secret_passage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FD48C962450EF3500B42FD9 /* secret_passage.jpg */; };
+		7FD48CA62450EF3600B42FD9 /* stairs_up.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FD48C972450EF3600B42FD9 /* stairs_up.jpg */; };
+		7FD48CA72450EF3600B42FD9 /* library.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FD48C982450EF3600B42FD9 /* library.jpg */; };
+		7FD48CA82450EF3600B42FD9 /* front_door.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FD48C992450EF3600B42FD9 /* front_door.jpg */; };
+		7FD48CA92450EF3600B42FD9 /* coat_room.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FD48C9A2450EF3600B42FD9 /* coat_room.jpg */; };
+		7FD48CAA2450EF3600B42FD9 /* labratory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FD48C9B2450EF3600B42FD9 /* labratory.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7FD48C762450ECA100B42FD9 /* UINavigaiontController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UINavigaiontController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD48C792450ECA100B42FD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FD48C7B2450ECA100B42FD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7FD48C7D2450ECA100B42FD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7FD48C802450ECA100B42FD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FD48C822450ECA900B42FD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FD48C852450ECA900B42FD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FD48C872450ECA900B42FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD48C8D2450EF3500B42FD9 /* bedroom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bedroom.jpg; path = "../../../../Downloads/drive-download-20200422T211902Z-001/bedroom.jpg"; sourceTree = "<group>"; };
+		7FD48C8E2450EF3500B42FD9 /* bathroom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bathroom.jpg; path = "../../../../Downloads/drive-download-20200422T211902Z-001/bathroom.jpg"; sourceTree = "<group>"; };
+		7FD48C8F2450EF3500B42FD9 /* dining_room.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dining_room.jpg; path = "../../../../Downloads/drive-download-20200422T211902Z-001/dining_room.jpg"; sourceTree = "<group>"; };
+		7FD48C902450EF3500B42FD9 /* kitchen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kitchen.jpg; path = "../../../../Downloads/drive-download-20200422T211902Z-001/kitchen.jpg"; sourceTree = "<group>"; };
+		7FD48C912450EF3500B42FD9 /* back_porch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = back_porch.jpg; path = "../../../../Downloads/drive-download-20200422T211902Z-001/back_porch.jpg"; sourceTree = "<group>"; };
+		7FD48C922450EF3500B42FD9 /* cursed_chalice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cursed_chalice.jpg; path = "../../../../Downloads/drive-download-20200422T211902Z-001/cursed_chalice.jpg"; sourceTree = "<group>"; };
+		7FD48C932450EF3500B42FD9 /* generator.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = generator.jpg; path = "../../../../Downloads/drive-download-20200422T211902Z-001/generator.jpg"; sourceTree = "<group>"; };
+		7FD48C942450EF3500B42FD9 /* dungeon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dungeon.jpg; path = "../../../../Downloads/drive-download-20200422T211902Z-001/dungeon.jpg"; sourceTree = "<group>"; };
+		7FD48C952450EF3500B42FD9 /* mysterious_lake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mysterious_lake.jpg; path = "../../../../Downloads/drive-download-20200422T211902Z-001/mysterious_lake.jpg"; sourceTree = "<group>"; };
+		7FD48C962450EF3500B42FD9 /* secret_passage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = secret_passage.jpg; path = "../../../../Downloads/drive-download-20200422T211902Z-001/secret_passage.jpg"; sourceTree = "<group>"; };
+		7FD48C972450EF3600B42FD9 /* stairs_up.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stairs_up.jpg; path = "../../../../Downloads/drive-download-20200422T211902Z-001/stairs_up.jpg"; sourceTree = "<group>"; };
+		7FD48C982450EF3600B42FD9 /* library.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = library.jpg; path = "../../../../Downloads/drive-download-20200422T211902Z-001/library.jpg"; sourceTree = "<group>"; };
+		7FD48C992450EF3600B42FD9 /* front_door.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = front_door.jpg; path = "../../../../Downloads/drive-download-20200422T211902Z-001/front_door.jpg"; sourceTree = "<group>"; };
+		7FD48C9A2450EF3600B42FD9 /* coat_room.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = coat_room.jpg; path = "../../../../Downloads/drive-download-20200422T211902Z-001/coat_room.jpg"; sourceTree = "<group>"; };
+		7FD48C9B2450EF3600B42FD9 /* labratory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = labratory.jpg; path = "../../../../Downloads/drive-download-20200422T211902Z-001/labratory.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FD48C732450ECA100B42FD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FD48C6D2450ECA100B42FD9 = {
+			isa = PBXGroup;
+			children = (
+				7FD48C782450ECA100B42FD9 /* UINavigaiontController */,
+				7FD48C772450ECA100B42FD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FD48C772450ECA100B42FD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FD48C762450ECA100B42FD9 /* UINavigaiontController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FD48C782450ECA100B42FD9 /* UINavigaiontController */ = {
+			isa = PBXGroup;
+			children = (
+				7FD48C912450EF3500B42FD9 /* back_porch.jpg */,
+				7FD48C8E2450EF3500B42FD9 /* bathroom.jpg */,
+				7FD48C8D2450EF3500B42FD9 /* bedroom.jpg */,
+				7FD48C9A2450EF3600B42FD9 /* coat_room.jpg */,
+				7FD48C922450EF3500B42FD9 /* cursed_chalice.jpg */,
+				7FD48C8F2450EF3500B42FD9 /* dining_room.jpg */,
+				7FD48C942450EF3500B42FD9 /* dungeon.jpg */,
+				7FD48C992450EF3600B42FD9 /* front_door.jpg */,
+				7FD48C932450EF3500B42FD9 /* generator.jpg */,
+				7FD48C902450EF3500B42FD9 /* kitchen.jpg */,
+				7FD48C9B2450EF3600B42FD9 /* labratory.jpg */,
+				7FD48C982450EF3600B42FD9 /* library.jpg */,
+				7FD48C952450EF3500B42FD9 /* mysterious_lake.jpg */,
+				7FD48C962450EF3500B42FD9 /* secret_passage.jpg */,
+				7FD48C972450EF3600B42FD9 /* stairs_up.jpg */,
+				7FD48C792450ECA100B42FD9 /* AppDelegate.swift */,
+				7FD48C7B2450ECA100B42FD9 /* SceneDelegate.swift */,
+				7FD48C7D2450ECA100B42FD9 /* ViewController.swift */,
+				7FD48C7F2450ECA100B42FD9 /* Main.storyboard */,
+				7FD48C822450ECA900B42FD9 /* Assets.xcassets */,
+				7FD48C842450ECA900B42FD9 /* LaunchScreen.storyboard */,
+				7FD48C872450ECA900B42FD9 /* Info.plist */,
+			);
+			path = UINavigaiontController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FD48C752450ECA100B42FD9 /* UINavigaiontController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FD48C8A2450ECA900B42FD9 /* Build configuration list for PBXNativeTarget "UINavigaiontController" */;
+			buildPhases = (
+				7FD48C722450ECA100B42FD9 /* Sources */,
+				7FD48C732450ECA100B42FD9 /* Frameworks */,
+				7FD48C742450ECA100B42FD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UINavigaiontController;
+			productName = UINavigaiontController;
+			productReference = 7FD48C762450ECA100B42FD9 /* UINavigaiontController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FD48C6E2450ECA100B42FD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = user169300;
+				TargetAttributes = {
+					7FD48C752450ECA100B42FD9 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7FD48C712450ECA100B42FD9 /* Build configuration list for PBXProject "UINavigaiontController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FD48C6D2450ECA100B42FD9;
+			productRefGroup = 7FD48C772450ECA100B42FD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FD48C752450ECA100B42FD9 /* UINavigaiontController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FD48C742450ECA100B42FD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD48C862450ECA900B42FD9 /* LaunchScreen.storyboard in Resources */,
+				7FD48CA02450EF3600B42FD9 /* back_porch.jpg in Resources */,
+				7FD48CA12450EF3600B42FD9 /* cursed_chalice.jpg in Resources */,
+				7FD48C9E2450EF3600B42FD9 /* dining_room.jpg in Resources */,
+				7FD48CA32450EF3600B42FD9 /* dungeon.jpg in Resources */,
+				7FD48CA52450EF3600B42FD9 /* secret_passage.jpg in Resources */,
+				7FD48CA62450EF3600B42FD9 /* stairs_up.jpg in Resources */,
+				7FD48C832450ECA900B42FD9 /* Assets.xcassets in Resources */,
+				7FD48CA92450EF3600B42FD9 /* coat_room.jpg in Resources */,
+				7FD48C9C2450EF3600B42FD9 /* bedroom.jpg in Resources */,
+				7FD48CA82450EF3600B42FD9 /* front_door.jpg in Resources */,
+				7FD48C812450ECA100B42FD9 /* Main.storyboard in Resources */,
+				7FD48CA72450EF3600B42FD9 /* library.jpg in Resources */,
+				7FD48C9F2450EF3600B42FD9 /* kitchen.jpg in Resources */,
+				7FD48CAA2450EF3600B42FD9 /* labratory.jpg in Resources */,
+				7FD48C9D2450EF3600B42FD9 /* bathroom.jpg in Resources */,
+				7FD48CA42450EF3600B42FD9 /* mysterious_lake.jpg in Resources */,
+				7FD48CA22450EF3600B42FD9 /* generator.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FD48C722450ECA100B42FD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD48C7E2450ECA100B42FD9 /* ViewController.swift in Sources */,
+				7FD48C7A2450ECA100B42FD9 /* AppDelegate.swift in Sources */,
+				7FD48C7C2450ECA100B42FD9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FD48C7F2450ECA100B42FD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FD48C802450ECA100B42FD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FD48C842450ECA900B42FD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FD48C852450ECA900B42FD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FD48C882450ECA900B42FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FD48C892450ECA900B42FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FD48C8B2450ECA900B42FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J82KJ33N8;
+				INFOPLIST_FILE = UINavigaiontController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.UINavigaiontController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FD48C8C2450ECA900B42FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J82KJ33N8;
+				INFOPLIST_FILE = UINavigaiontController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.UINavigaiontController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FD48C712450ECA100B42FD9 /* Build configuration list for PBXProject "UINavigaiontController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD48C882450ECA900B42FD9 /* Debug */,
+				7FD48C892450ECA900B42FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FD48C8A2450ECA900B42FD9 /* Build configuration list for PBXNativeTarget "UINavigaiontController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD48C8B2450ECA900B42FD9 /* Debug */,
+				7FD48C8C2450ECA900B42FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FD48C6E2450ECA100B42FD9 /* Project object */;
+}
