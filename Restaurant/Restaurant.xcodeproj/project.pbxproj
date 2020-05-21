@@ -20,6 +20,7 @@
 		663E01412476DD6500E28C6E /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663E01402476DD6500E28C6E /* MenuItem.swift */; };
 		663E01432476DFF700E28C6E /* IntermediaryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663E01422476DFF700E28C6E /* IntermediaryModels.swift */; };
 		663E01452476E19F00E28C6E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663E01442476E19F00E28C6E /* Order.swift */; };
+		663E01472476E8D500E28C6E /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663E01462476E8D500E28C6E /* MenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		663E01402476DD6500E28C6E /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		663E01422476DFF700E28C6E /* IntermediaryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediaryModels.swift; sourceTree = "<group>"; };
 		663E01442476E19F00E28C6E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		663E01462476E8D500E28C6E /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				663E01402476DD6500E28C6E /* MenuItem.swift */,
 				663E01422476DFF700E28C6E /* IntermediaryModels.swift */,
 				663E01442476E19F00E28C6E /* Order.swift */,
+				663E01462476E8D500E28C6E /* MenuController.swift */,
 			);
 			path = Restaurant;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				663E01452476E19F00E28C6E /* Order.swift in Sources */,
 				663E013D2476D50E00E28C6E /* MenuTableViewController.swift in Sources */,
 				663E013F2476D95B00E28C6E /* MenuItemDetailViewController.swift in Sources */,
+				663E01472476E8D500E28C6E /* MenuController.swift in Sources */,
 				663E013B2476D4E000E28C6E /* CategoryTableViewController.swift in Sources */,
 				663E01432476DFF700E28C6E /* IntermediaryModels.swift in Sources */,
 				663E01412476DD6500E28C6E /* MenuItem.swift in Sources */,
