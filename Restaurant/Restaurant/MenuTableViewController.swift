@@ -9,9 +9,7 @@
 import UIKit
 
 class MenuTableViewController: UITableViewController {
-
     
-//    let menuController = MenuController()
     var menuItems = [MenuItem]()
     var category: String!
     
