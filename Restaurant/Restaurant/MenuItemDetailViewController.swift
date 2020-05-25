@@ -29,6 +29,13 @@ class MenuItemDetailViewController: UIViewController {
         titleLabel.text = menuItem.name
         priceLabel.text = String(format: "$%.2f", menuItem.price)
         detailTextLabel.text = menuItem.detailText
+        MenuController.shared.fetchImage(url: menuItem.imageURL)
+        { (image) in
+            guard let image = image else { return }
+            DispatchQueue.main.async {
+                self.imageView.image = image
+            }
+        }
     }
 
     @IBAction func addToOrderButtonTapped(_ sender: UIButton) {
@@ -40,6 +47,7 @@ class MenuItemDetailViewController: UIViewController {
         }
         MenuController.shared.order.menuItems.append(menuItem)
     }
+
     /*
     // MARK: - Navigation
 
